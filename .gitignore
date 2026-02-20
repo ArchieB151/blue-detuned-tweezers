@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.dist/
+.build/
+.venv/
+.uv/
+.ipynb_checkpoints/
+.
+
+# Outputs / artifacts
+outputs/
+**/outputs/
+*.npy
+*.npz
+
+# Data (keep ONLY small demo data if you want)
+data/
+**/data/
+*.npy
+data/
+outputs/
+
+# macOS
+.DS_Store

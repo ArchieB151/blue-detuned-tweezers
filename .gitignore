@@ -34,6 +34,11 @@ force_coarse/
 data/*
 !data/demo/
 !data/demo/**
+data/force_coarse/
+data/force_fine/
+data/potentials/
+
+*.npy
 
 # =========================
 # macOS

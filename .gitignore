@@ -1,6 +1,3 @@
-# =========================
-# Python
-# =========================
 __pycache__/
 *.pyc
 *.pyo
@@ -13,34 +10,20 @@ __pycache__/
 .venv/
 .uv/
 .ipynb_checkpoints/
-
-# =========================
-# Large numerical artifacts
-# =========================
 *.npy
 *.npz
-
-# =========================
-# Generated outputs
-# =========================
 outputs/
 **/outputs/
 force_fine/
 force_coarse/
-
-# =========================
-# Data (ignore heavy raw data)
-# =========================
 data/*
 !data/demo/
 !data/demo/**
 data/force_coarse/
 data/force_fine/
 data/potentials/
-
 *.npy
-
-# =========================
-# macOS
-# =========================
 .DS_Store
+*.nbi
+*.nbc
+

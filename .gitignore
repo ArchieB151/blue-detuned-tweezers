@@ -1,4 +1,6 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
@@ -11,20 +13,29 @@ __pycache__/
 .venv/
 .uv/
 .ipynb_checkpoints/
-.
 
-# Outputs / artifacts
-outputs/
-**/outputs/
+# =========================
+# Large numerical artifacts
+# =========================
 *.npy
 *.npz
 
-# Data (keep ONLY small demo data if you want)
-data/
-**/data/
-*.npy
-data/
+# =========================
+# Generated outputs
+# =========================
 outputs/
+**/outputs/
+force_fine/
+force_coarse/
 
+# =========================
+# Data (ignore heavy raw data)
+# =========================
+data/*
+!data/demo/
+!data/demo/**
+
+# =========================
 # macOS
+# =========================
 .DS_Store

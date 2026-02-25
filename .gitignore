@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.nbc
+*.nbi
 *.so
 *.dylib
 *.egg-info/
@@ -23,4 +25,8 @@ data/potentials/
 .DS_Store
 *.nbi
 *.nbc
+
+# Large simulation data
+data/force_coarse/
+*.npy
 
